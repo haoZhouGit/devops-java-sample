@@ -9,13 +9,13 @@ pipeline {
         string(name:'TAG_NAME',defaultValue: '',description:'')
     }
 
-    environment {
+     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'shaowenchen'
-        GITHUB_ACCOUNT = 'kubesphere'
+        DOCKERHUB_NAMESPACE = 'aha1234567'
+        GITHUB_ACCOUNT = 'haoZhouGit'
         APP_NAME = 'devops-java-sample'
     }
 
